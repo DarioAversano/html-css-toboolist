@@ -1,13 +1,49 @@
 
+body{
+    background: #f6f8f8;
+    font-style: arial;
+}
+
+.gray{
+    color: #43484d;
+}
+
+.white{
+    background: white;
+    font-style: arial;
+}
+
+.border{
+    border-top: #f6f8f8;
+    margin: 10px;
+}
+
+
+.header{
+    background: #f6f8f8;
+    }
+    
+
+.container-add{
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+
+}
+
 .addtask{
     width: 80px;
     height: 20px;
     display: inline-block;
     background-color: #00abf5;
-    margin-top: 3px;
+    margin-top: 12px;
     margin-bottom: 3px;
-    border-radius: 10%;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
     text-align: center;
+    padding: 7px;
 }
 
 .addsection     {
@@ -16,17 +52,18 @@
     display: inline-block;
     border-style: solid;
     border-width: 1px;
-    margin-top: 3px;
+    margin-top: 12px;
     margin-bottom: 3px;
-    margin-right: 1px;
-    margin-left: 1px;
-    border-radius: 10%;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 5px%;
     text-align: center;
+    padding: 7px
 }
 
 .editorial{
     width: 65px;
-    height: 20px;
+    height: 65px;
     font-size: smaller;
     display: inline-block;
     background-color: #00abf5;
@@ -111,57 +148,12 @@
 }
 .container-small{
     width: 70%;
-    margin: auto;
+    margin-left: 300px;
+    padding: 2px;
 }
 
-.font-s-30 {
-    font-size: 30px;
-}
-
-.bg-red {
-    background-color: red;
-}
-
-.bg-acquamarine{
-    background-color: aquamarine;
-}
-
-.bg-white{
-    background-color: white;
-}
-
-#notification-email-counter{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    background-color: rgb(172, 0, 0);
-    color: white;
-    border-radius: 50%;
-    text-align: center;
-}
-
-#unread-email-text {
-    line-height: 50px;
-}
-
-.row-email{
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.object-email-text{
-    display: inline;
-    font-weight: 600;
-}
-
-
-.email-text{
-    margin-left: 20px;
-    line-height: 40px;
-}
-
-.star{
-    color: yellow;
+.container-head{
+    width: 70%;
+    margin-left: 300px;
+    padding: 40px;
 }
