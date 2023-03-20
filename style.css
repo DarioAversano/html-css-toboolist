@@ -140,13 +140,19 @@ body{
     
 }
 .container-small{
-    width: 70%;
+    width: 80%;
     margin-left: 300px;
-    padding: 2px;
+    }
+
+
+.container-end{
+    width: 80%;
+    margin-left: 300px;
+    margin-bottom: 30px;
 }
 
 .container-head{
-    width: 70%;
+    width: 80%;
     margin-left: 300px;
     padding: 40px;
 }
